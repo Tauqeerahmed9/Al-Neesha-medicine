@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+body {
+  background-color: rgb(219, 219, 219);
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../Our\ Work.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.logo img {
+  float: left;
+  width: 150px;
+  margin: 5px 10px;
+  filter: invert(100%);
+}
+ul {
+  margin-top: 25px;
+  list-style-type: none;
+  float: right;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  border: 1px solid transparent;
+  color: #fff;
+  padding: 5px 20px;
+  transition: 0.7s ease;
+}
+ul li a:hover {
+  background-color: #fff;
+  color: black;
+}
+ul .active a {
+  background-color: #fff;
+  color: black;
+}
+
+.main {
+  width: 1300px;
+  margin: auto;
+}
+.article {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.article h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+}
+.article p {
+  text-align: center;
+  font-size: 1rem;
+  color: #fff;
+}
+.button {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.7s ease;
+}
+.btn:hover {
+  background-color: #fff;
+  color: black;
+}
+section {
+  width: 1000px;
+  margin: 40px auto;
+}
+
+.serviceContainer h3 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.serviceBox img {
+  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.671);
+  width: 400px;
+  margin-right: 30px;
+}
+
+.serviceBox {
+  display: flex;
+}
+.serviceBox p {
+  margin-top: 60px;
+  text-align: justify;
+}
+.serviceBox2 {
+  margin-top: 30px;
+  display: flex;
+}
+.serviceBox2 img {
+  box-shadow: -2px 2px 6px 0 rgba(0, 0, 0, 0.671);
+  width: 400px;
+  margin-left: 30px;
+}
+.serviceBox2 p {
+  margin-top: 60px;
+  text-align: justify;
+}
+.serviceBox3 {
+  margin-top: 30px;
+  display: flex;
+}
+.serviceBox3 img {
+  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.671);
+  width: 400px;
+  margin-right: 30px;
+}
+.serviceBox3 p {
+  margin-top: 60px;
+  text-align: justify;
+}
+.careerContainer {
+  background-color: rgb(27, 32, 78);
+  height: 110vh;
+}
+.careerContainer h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 22px;
+  color: #fff;
+}
+
+.careerContainer2 {
+  display: flex;
+  margin: 0 40px;
+}
+.details {
+  padding: 0 20px;
+  margin-top: 10px 20px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  overflow: hidden;
+  height: 235px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.671);
+}
+.col-md-4 {
+  padding: 10px 10px;
+  margin-bottom: 50px;
+}
+.details h3 {
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: rgb(27, 32, 78);
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.details p {
+  text-transform: none;
+  color: rgb(27, 32, 78);
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.details a {
+  text-decoration: none;
+  border: 1px solid rgb(27, 32, 78);
+  padding: 5px 20px;
+  color: #fff;
+  display: inline-block;
+  background-color: rgb(27, 32, 78);
+  transition: 0.4s ease;
+}
+.details::before {
+  content: "";
+  width: 5px;
+  height: 100%;
+  background-color: #ff5722;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.details a:hover {
+  background-color: #ff5722;
+  color: #fff;
+  border: 1px solid #ff5722;
+}
+.careerContainer3 {
+  display: flex;
+  margin: 0 37px;
+}
+.aboutContainer {
+  background-color: rgb(219, 219, 219);
+  height: 110vh;
+}
+.aboutContainer2 {
+  display: flex;
+  width: 1100px;
+  margin: auto;
+  align-items: center;
+}
+.aboutContainer2 h3 {
+  text-align: center;
+  font-size: 30px;
+  /* text-decoration: underline; */
+}
+.image img {
+  width: 500px;
+  margin: 160px 0;
+  box-shadow: -2px 2px 6px 0 rgba(0, 0, 0, 0.609);
+}
+
+.aboutDesc {
+  width: 500px;
+  margin-right: 80px;
+  /* padding: 30px 0; */
+  border: 1px solid transparent;
+}
+.aboutDesc p {
+  text-align: justify;
+  margin-top: 20px;
+}
+.aboutDesc #btn {
+  border: 1px solid transparent;
+  background-color: rgb(27, 32, 78);
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  transition: 0.5s ease;
+}
+.aboutDesc #btn:hover {
+  background-color: #ff5722;
+}
+
+.contactContainer {
+  width: 80%;
+  margin: 10px auto;
+}
+.contactContainer h3{
+  text-align: end;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.contactBox {
+  background-color: #fff;
+  display: flex;
+}
+.contact-Left h4{
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+.contact-Right h4{
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+.contact-Left {
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+.contact-Right {
+  flex-basis: 40%;
+  padding: 40px;
+  background-color: rgb(27, 32, 78);
+  color: #fff;
+}
+.inputRow{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.inputRow .inputGrp{
+  flex-basis: 45%;
+}
+input{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding-bottom: 5px;
+
+
+}
+textarea{
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
+
+}
+label{
+  margin-bottom: 5px;
+  display: block;
+  color:rgb(27, 32, 78) ;
+
+}
+button{
+  background-color: rgb(27, 32, 78);
+  width: 100px;
+  border: none;
+  outline: none;
+  height: 35px;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.6s ease;
+  
+}
+button:hover{
+  background-color: #ff5722;
+  color: #fff;
+ 
+}
+tr td:first-child{
+  padding-right: 30px;
+}
+tr td{
+  padding-top: 20px;
+}
